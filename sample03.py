@@ -9,6 +9,7 @@ def fizz_buzz_convert(x: int) -> str:
         return str(x)
 
 y1 = fizz_buzz_convert(x=1)
+#この場合のXは公開引数
 print(y1)
 
 y2 = fizz_buzz_convert(x=3)

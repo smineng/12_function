@@ -1,4 +1,5 @@
 def double(number: int) -> int:
+#(引数:　整数)で整数を返す
     return 2 * number
 
 y1 = double(number=1)
